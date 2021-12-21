@@ -73,7 +73,7 @@ namespace SahibindenVitrin.ConsoleApplication
                     toplamFiyat += item.Fiyat;
                 }
 
-                Console.Write("Ortalama Fiyat = " + String.Format("{0:C2}", (toplamFiyat / ilanlar.Count)));
+                Console.Write("Ortalama Fiyat = " + String.Format("{0:N}", (toplamFiyat / ilanlar.Count)) + " TL");
             }
             else
             {

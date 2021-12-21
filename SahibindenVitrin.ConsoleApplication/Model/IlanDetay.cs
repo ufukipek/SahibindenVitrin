@@ -32,7 +32,7 @@ namespace SahibindenVitrin.ConsoleApplication.Model
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine(Baslik);
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Fiyat = " + String.Format("{0:C2}", Fiyat));
+            Console.WriteLine("Fiyat = " + String.Format("{0:N}", Fiyat)+" TL");
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine(Link);
             Console.ResetColor();
